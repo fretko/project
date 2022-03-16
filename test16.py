@@ -15,7 +15,7 @@ if r.status_code == 200:
     print(json_r.status_code)
  
 ##########################################################################################################
-'''url = 'http://t2.polygon.ru'
+url = 'http://t2.polygon.ru'
 json_url = 'http://t2.polygon.ru'
 session = requests.Session()
 r = session.get(url)
@@ -65,7 +65,7 @@ if r.status_code == 200:
     znacheniya5 = data["variables"]["temperature"], data["variables"]["humidity"]
     print(znacheniya5)
   else:
-    print(json_r.status_code)'''
+    print(json_r.status_code)
 
 
  
